@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+echo uniqid();
+?>
+
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$data = "PHP";
+print_r(unpack("C*",$data));
+?>
+
+</body>
+</html>
