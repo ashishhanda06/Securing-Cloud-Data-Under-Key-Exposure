@@ -1,0 +1,205 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Elephant;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.active {
+  background: #ff6347;
+}
+.tablink:hover {
+  background-image: url('x.jpg');
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-position: center;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+
+.video {
+display: block;
+}
+
+
+</style>
+</head>
+<body>
+<button class="tablink " onclick="openPage('Home',this,'tomato')">Home</button>
+<button class="tablink" onclick="openPage('User', this, 'tomato')">User</button>
+<button class="tablink" onclick="openPage('Owner', this, 'tomato')">Owner</button>
+<button class="tablink" onclick="openPage('File_request', this, 'tomato')">File_request</button>
+
+<div id="Home" class="tabcontent video">
+  <h3> 
+<video width="1340" height="500" autoplay muted loop id="myVideo">
+  <source src="ICON_VERSION8.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+<style>
+body {
+  background-image: url('wp3929803-cloud-computing-wallpapers.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style></h3>
+
+
+  
+</div>
+<div id="User" class="tabcontent">
+  <h3> 
+<style>
+body {
+  background-image: url('network-2402637_960_720.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style></h3>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+tr:nth-child(odd) {
+  background-color: pink;
+}
+</style>
+
+<table>
+  <tr>
+    <th> User_name</th> <th>Mail_id</th> <th>Location</th> <th>Phone</th> <th>Gender</th> <th>Date</th> <th>Activate</th> 
+    
+  </tr>
+  <tr>
+    <td>Swati Priyadrashni</td> <td> spd030114@gmail.com</td> <td> Chandigarh</td> <td> 8968021361</td> <td> Female</td> <td> April-2020</td> <td><button type = "button" class = "btn btn-default btn-lg active">
+         Active Button
+      </button></td> 
+  </tr>
+  <tr>
+    <td>Ishan</td> <td> ishanoned@gmail.com</td> <td> Chandigarh</td> <td> 6283849933</td> <td> Male</td> <td> April-2020</td>  <td><button type = "button" class = "btn btn-default btn-lg active">
+         Active Button
+      </button></td> 
+  </tr>
+  <tr>
+    <td>Siddhant Abrol</td> <td> cu.18bcs3186@gmail.com</td> <td> Chandigarh</td> <td> 8872600747</td> <td> Male</td> <td> April-2020</td> <td><button type = "button" class = "btn btn-default btn-lg active">
+         Active Button
+      </button></td> 
+  </tr>
+  <tr>
+    <td>Rishant Sharma</td> <td>cu.18bcs3410@gmail.com</td> <td> Chandigarh</td> <td> 8826659539</td> <td> Male</td> <td> April-2020</td>  <td><button type = "button" class = "btn btn-default btn-lg active">
+         Active Button
+      </button></td> 
+  </tr>
+  
+</table>
+</div>
+
+<div id="Owner" class="tabcontent">
+  <h3>
+<style>
+body {
+  background-image: url('wp3929803-cloud-computing-wallpapers.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style></h3>
+  
+<table>
+  <tr>
+    <th> User_name</th> <th>Mail_id</th> <th>Location</th> <th>Phone</th> <th>Gender</th> <th>Date</th> <th>Activate</th> 
+  </tr>
+  <tr>
+     <td> Ashish Handa</td> <td> cu.18bcs3070@gmail.com</td> <td> Chandigarh</td> <td> 7408549017</td> <td> Male</td> <td> April-2020</td> 
+<td><button type = "button" class = "btn btn-default btn-lg active">
+         Active Button
+      </button></td> 
+  </tr>
+  <tr>
+    <td> Monika Kumari</td> <td> cu.18bcs6637@gmail.com</td> <td> Chandigarh</td> <td> 6205692381</td> <td> Female</td> <td> April-2020</td> <td> <button type = "button" class = "btn btn-default btn-lg active">
+         Active Button
+      </button>
+  </tr>
+  <tr>
+    <td> Manish</td> <td> cu.18bcs6611@gmail.com</td> <td> Chandigarh</td> <td>7015384941</td> <td> Male</td> <td> April-2020</td> <td> <button type = "button" class = "btn btn-default btn-lg active">
+         Active Button
+      </button>
+  </tr>
+  
+</table> 
+</div>
+<div id="File_request" class="tabcontent">
+  <h3>
+<style>
+body {
+  background-image: url('network-2402637_960_720.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style></h3>
+ 
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
